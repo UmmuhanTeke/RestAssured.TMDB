@@ -15,6 +15,7 @@ public class Account extends TMDB_ParentPage {
 
     @Test
     public void getLogin(){
+
         given()
                 .spec(reqSpec)
                 .when()
@@ -26,6 +27,7 @@ public class Account extends TMDB_ParentPage {
 
     @Test
     public void getAccount(){
+
         given()
                 .spec(reqSpec)
                 .when()
@@ -79,6 +81,7 @@ public class Account extends TMDB_ParentPage {
 
     @Test
     public void favoriteMovies(){
+
         given()
                 .spec(reqSpec)
                 .when()
@@ -91,6 +94,7 @@ public class Account extends TMDB_ParentPage {
 
     @Test
     public void favoriteTv(){
+
         given()
                 .spec(reqSpec)
                 .when()
@@ -103,6 +107,7 @@ public class Account extends TMDB_ParentPage {
 
     @Test
     public void ratedMovies(){
+
         given()
                 .spec(reqSpec)
                 .when()
@@ -115,6 +120,7 @@ public class Account extends TMDB_ParentPage {
 
     @Test
     public void ratedTv(){
+
         given()
                 .spec(reqSpec)
                 .when()
@@ -127,6 +133,7 @@ public class Account extends TMDB_ParentPage {
 
     @Test
     public void watchListMovies(){
+
         given()
                 .spec(reqSpec)
                 .when()
@@ -139,6 +146,7 @@ public class Account extends TMDB_ParentPage {
 
     @Test
     public void watchListTv(){
+
         given()
                 .spec(reqSpec)
                 .when()
@@ -148,6 +156,4 @@ public class Account extends TMDB_ParentPage {
                 .statusCode(200)
         ;
     }
-
-
 }
