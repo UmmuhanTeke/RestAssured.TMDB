@@ -1,4 +1,5 @@
 package TMDB;
+
 import TMDB.Utility.TMDB_ParentPage;
 import org.testng.annotations.Test;
 
@@ -7,7 +8,7 @@ import static io.restassured.RestAssured.*;
 public class MovieList extends TMDB_ParentPage {
 
     @Test
-    public void nowPlaying(){
+    public void nowPlaying() {
 
         given()
                 .spec(reqSpec)
@@ -19,7 +20,7 @@ public class MovieList extends TMDB_ParentPage {
     }
 
     @Test
-    public void popular(){
+    public void popular() {
 
         given()
                 .spec(reqSpec)
@@ -31,7 +32,7 @@ public class MovieList extends TMDB_ParentPage {
     }
 
     @Test
-    public void topRated(){
+    public void topRated() {
 
         given()
                 .spec(reqSpec)
@@ -43,7 +44,7 @@ public class MovieList extends TMDB_ParentPage {
     }
 
     @Test
-    public void upComing(){
+    public void upComing() {
 
         given()
                 .spec(reqSpec)
@@ -55,7 +56,7 @@ public class MovieList extends TMDB_ParentPage {
     }
 
     @Test
-    public void movie(){
+    public void movie() {
 
         given()
                 .spec(reqSpec)

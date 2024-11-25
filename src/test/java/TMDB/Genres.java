@@ -1,4 +1,5 @@
 package TMDB;
+
 import TMDB.Utility.TMDB_ParentPage;
 import org.testng.annotations.Test;
 
@@ -7,7 +8,7 @@ import static io.restassured.RestAssured.*;
 public class Genres extends TMDB_ParentPage {
 
     @Test
-    public void moveList(){
+    public void moveList() {
 
         given()
                 .spec(reqSpec)
@@ -19,7 +20,7 @@ public class Genres extends TMDB_ParentPage {
     }
 
     @Test
-    public void tvList(){
+    public void tvList() {
 
         given()
                 .spec(reqSpec)
