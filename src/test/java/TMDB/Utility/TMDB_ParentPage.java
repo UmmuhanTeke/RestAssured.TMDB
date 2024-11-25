@@ -8,11 +8,11 @@ import org.testng.annotations.BeforeClass;
 import static io.restassured.RestAssured.baseURI;
 
 public class TMDB_ParentPage {
-    RequestSpecification reqSpec;
+   public RequestSpecification reqSpec;
 
     @BeforeClass
     public void SetUp() {
-        baseURI = "https://www.themoviedb.org/";
+        baseURI = "https://api.themoviedb.org/3/";
 
         reqSpec = new RequestSpecBuilder()
                 .addHeader("Authorization", ConfigReader.getProperty("bearerToken"))
