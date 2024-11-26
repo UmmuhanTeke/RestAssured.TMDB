@@ -10,14 +10,15 @@ API key, session_id and username must be written into the variables in the file 
 
 #### Account
 - Get Details
-- Add Movie To Favorite
-- Add Movie To Watchlist
+- Post Add Movie To Favorite
+- Post Add Movie To Watchlist
 - Get Favorite Movies
 - Get Rated Movies
 - Get Watchlist Movies
 
 #### Genres
-- Get Movie List, Get TV List
+- Get Movie List
+- Get TV List
 
 #### Movie Lists
 - Get Now Playing Movies
@@ -26,9 +27,10 @@ API key, session_id and username must be written into the variables in the file 
 - Get Upcoming Movies
 
 #### Movies
-- Get etails
-- Add Rating
-- Add Movie
+- Get Details
+- Get Lists 
+- Post Add Rating
+- Post Add Movie
 - Delete Rating
 
 Note: It may give an error after creating lists 4 or 5 times with the CreateList function. Even if the lists are deleted, an error may occur while generating the list with the same explanation. If the description of the requestBody variable in the ListService class is changed and retried, the function will work without error.
