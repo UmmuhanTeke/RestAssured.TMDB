@@ -13,8 +13,11 @@ API key, session_id and username must be written into the variables in the file 
 - Post Add Movie To Favorite
 - Post Add Movie To Watchlist
 - Get Favorite Movies
+- Get Favorite TV
 - Get Rated Movies
+- Get Rated TV
 - Get Watchlist Movies
+- Get Watchlist TV
 
 #### Genres
 - Get Movie List
@@ -24,7 +27,13 @@ API key, session_id and username must be written into the variables in the file 
 - Get Now Playing Movies
 - Get Popular Movies
 - Get Top Rated Movies
-- Get Upcoming Movies            
+- Get Upcoming Movies
+
+#### Search      
+- Get Movie
+- Get TV
+- Get Person
+- Get Keyword
 
 #### Movies
 - Get Details
@@ -39,7 +48,7 @@ API key, session_id and username must be written into the variables in the file 
 | [Ümmühan Teke](https://github.com/UmmuhanTeke)            | QA Automation Engineer                |
 | [Sefa Kahraman](https://github.com/SefaKahramann)         | QA Automation Engineer                |
 
-*Note*: It may give an error after creating lists 4 or 5 times with the CreateList function. Even if the lists are deleted, an error may occur while generating the list with the same explanation. If the description of the requestBody variable in the ListService class is changed and retried, the function will work without error.
+ *Note*: It may give an error after creating lists 4 or 5 times with the CreateList function. Even if the lists are deleted, an error may occur while generating the list with the same explanation. If the description of the requestBody variable in the ListService class is changed and retried, the function will work without error.
 
 ## LICENSE
 MIT LICENSE
