@@ -42,11 +42,13 @@ API key, session_id and username must be written into the variables in the file 
 - Post Add Movie
 - Delete Rating
 
+
 | Contributor                                               | Role                                  |
 |-----------------------------------------------------------|---------------------------------------|
 | [Merve Kaya](https://github.com/kayyamervee)              | Project Lead & QA Automation Engineer |
 | [Ümmühan Teke](https://github.com/UmmuhanTeke)            | QA Automation Engineer                |
 | [Sefa Kahraman](https://github.com/SefaKahramann)         | QA Automation Engineer                |
+
 
  *Note*: It may give an error after creating lists 4 or 5 times with the CreateList function. Even if the lists are deleted, an error may occur while generating the list with the same explanation. If the description of the requestBody variable in the ListService class is changed and retried, the function will work without error.
 
